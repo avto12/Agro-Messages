@@ -9,7 +9,7 @@
  */
 
 if (!defined('ABSPATH')) exit;
-
+require_once plugin_dir_path(__FILE__) . 'admin/admin-columns.php';
 register_activation_hook(__FILE__, 'ag_messages_install_table');
 
 function ag_messages_install_table() {
