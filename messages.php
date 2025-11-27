@@ -149,7 +149,7 @@ class AG_Messages {
 
       $message_body = '
           <div style="font-family:Arial, sans-serif; font-size:14px; color:#333;">
-              <p><strong>გამომგზავნი:</strong> '. esc_html($sender_name) . ' <sup style="color:#4caf50; text-transform: capitalize;"> '. esc_html($sender_roles) . '</sup></p>
+              <p><strong>გამომგზავნი:</strong> '. esc_html($sender_name) . ' <sup style="color:#000000; font-weight: 600; text-transform: capitalize;"> '. esc_html($sender_roles) . '</sup></p>
               <p>'. $message .'</p>
           </div>
       ';
